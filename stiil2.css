@@ -1,0 +1,150 @@
+*{
+
+	box-sizing:border-box;
+}
+
+.container {
+	width: 1140px;
+	/*      top right bottom left*/
+	margin: 40px auto 0 auto;
+}
+
+body{
+	background-color:gray;
+}
+	
+.content-wrapper{
+	width: 80%;
+	margin:4% 10% 5% 20%;
+}
+
+
+.searchbar {
+	float: right;
+}	
+
+.navbar {
+	margin: 8px;
+	padding: 8px;
+	background-color: gray;
+	
+}
+
+.navbar ul li {
+	display: inline;
+	float: center;
+}
+
+.navbar ul {
+	text-align: center;
+}
+
+.navbar ul li a {
+	color: black;
+	text-align: center;
+	padding: 16px;
+}
+a:hover {
+	background-color: white;
+	color:black;
+}
+
+.active {
+  background-color: #696969;
+}
+
+.text-wrapper h1 {
+	background-image:url("https://www.planwallpaper.com/static/images/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg");
+	padding:160px 0;
+	color: white;
+	text-align:center;
+	font-family: Verdana, sans-serif;
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+	}
+
+.blog-posts {
+	text-align: justify;
+	width: 75%;
+	padding-right: 40px;
+	position: relative;
+	padding:40px;
+	margin-top:40px;
+	background-color:#26687A;
+	float: left;
+}
+.date {
+	font-style:italic;
+}
+
+.text {
+line-height:145%
+}
+
+.content::first-letter { 
+    font-size: 200%;
+}
+
+h2 {
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.posts-list {float:right;
+	background-color: #696969;
+	width:20%;
+	list-style:none;
+	line-height:300%
+}
+
+
+}
+.posts-list ul li a{
+    list-style: none;
+    margin-top: 40px;
+	
+	
+}
+
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.footer-nav {
+	margin: 8px;
+	padding: 8px;
+	background-color: gray;	
+}
+
+
+.footer-nav  li {
+	display: inline;
+	float: center;
+}
+
+.footer-nav {
+	text-align: center;
+}
+
+.footer-nav li a {
+	color: black;
+	text-align: center;
+	padding: 16px;
+}
+
+.copyright {
+	text-align: center;
+	margin-top:20px;
+}
+
+.copyright, .footer-nav {
+	background-color:gray;
+}
+
+.logo {
+	float: left;
+	font-family: Verdana, sans-serif;
+}
